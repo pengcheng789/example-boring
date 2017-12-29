@@ -1,0 +1,15 @@
+group 'top.pengcheng789.java'
+version '1.0-SNAPSHOT'
+
+apply plugin: 'war'
+
+sourceCompatibility = 9.0
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    compile 'top.pengcheng789.java:boring-framework:1.0.1'
+}
